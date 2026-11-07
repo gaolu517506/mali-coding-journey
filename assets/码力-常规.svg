@@ -1,38 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" width="480" height="520">
-  <!-- 码力 · 常规造型：圆脑袋+天线+暖黄身体+银灰履带+背绿桶（15 形状闭集） -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" width="120" height="130">
+  <!-- 码力 · 常规造型 v3：按概念图细致对齐（大眼薄白圈/短低位嘴/背带卡扣/天线圆顶/三道履带纹+轮毂） -->
   <!-- 背桶（脑后）：盖沿 + 桶身 -->
-  <rect x="40" y="52" width="160" height="16" rx="7" fill="#2F7D33" stroke="#2F2F2F" stroke-width="4"/>
-  <rect x="47" y="66" width="146" height="84" rx="10" fill="#45A049" stroke="#2F2F2F" stroke-width="4"/>
-  <!-- 履带 ×2：银灰圆角矩形 + 各 2 条深灰竖线（收拢、上移贴住身体） -->
-  <rect x="58" y="200" width="52" height="38" rx="14" fill="#C9CDD3" stroke="#2F2F2F" stroke-width="4"/>
-  <line x1="71" y1="205" x2="71" y2="233" stroke="#8F959D" stroke-width="4" stroke-linecap="round"/>
-  <line x1="87" y1="205" x2="87" y2="233" stroke="#8F959D" stroke-width="4" stroke-linecap="round"/>
-  <rect x="130" y="200" width="52" height="38" rx="14" fill="#C9CDD3" stroke="#2F2F2F" stroke-width="4"/>
-  <line x1="145" y1="205" x2="145" y2="233" stroke="#8F959D" stroke-width="4" stroke-linecap="round"/>
-  <line x1="161" y1="205" x2="161" y2="233" stroke="#8F959D" stroke-width="4" stroke-linecap="round"/>
-  <!-- 身体：圆角矩形 + 胸前面板描边 -->
-  <rect x="76" y="136" width="88" height="78" rx="16" fill="#F6BD4A" stroke="#2F2F2F" stroke-width="5"/>
-  <rect x="96" y="152" width="48" height="34" rx="9" fill="none" stroke="#2F2F2F" stroke-width="4"/>
-  <!-- 背带 ×2：短斜线搭在身体上沿 + 铰链圆点 -->
-  <line x1="68" y1="146" x2="90" y2="172" stroke="#2F2F2F" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="90" cy="172" r="5" fill="#2F2F2F"/>
-  <line x1="172" y1="146" x2="150" y2="172" stroke="#2F2F2F" stroke-width="8" stroke-linecap="round"/>
-  <circle cx="150" cy="172" r="5" fill="#2F2F2F"/>
-  <!-- 天线：线 + 顶端小圆 -->
-  <line x1="120" y1="22" x2="120" y2="52" stroke="#2F2F2F" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="120" cy="16" r="7" fill="#2F2F2F"/>
-  <!-- 脑袋：大圆 -->
-  <circle cx="120" cy="96" r="52" fill="#F6BD4A" stroke="#2F2F2F" stroke-width="5"/>
-  <!-- 眉毛 ×2（好奇感） -->
-  <path d="M 86 72 Q 96 65 106 69" fill="none" stroke="#2F2F2F" stroke-width="5" stroke-linecap="round"/>
-  <path d="M 134 69 Q 144 65 154 72" fill="none" stroke="#2F2F2F" stroke-width="5" stroke-linecap="round"/>
-  <!-- 眼睛 ×2：白圈 + 黑瞳 + 白高光点 -->
-  <circle cx="98" cy="91" r="13" fill="#FFFFFF" stroke="#2F2F2F" stroke-width="4"/>
-  <circle cx="100" cy="93" r="7.5" fill="#2F2F2F"/>
-  <circle cx="103" cy="89" r="2.5" fill="#FFFFFF"/>
-  <circle cx="142" cy="91" r="13" fill="#FFFFFF" stroke="#2F2F2F" stroke-width="4"/>
-  <circle cx="140" cy="93" r="7.5" fill="#2F2F2F"/>
-  <circle cx="143" cy="89" r="2.5" fill="#FFFFFF"/>
-  <!-- 嘴：平直短线（常规表情） -->
-  <line x1="111" y1="123" x2="131" y2="123" stroke="#2F2F2F" stroke-width="5" stroke-linecap="round"/>
+  <rect x="30" y="58" width="180" height="18" rx="8" fill="#2F7D33" stroke="#2F2F2F" stroke-width="4"/>
+  <rect x="36" y="74" width="168" height="102" rx="10" fill="#45A049" stroke="#2F2F2F" stroke-width="4"/>
+  <!-- 背带卡扣 ×2（黑色小夹片，骑在桶盖下沿） -->
+  <rect x="52" y="70" width="14" height="12" rx="3" fill="#2F2F2F"/>
+  <rect x="174" y="70" width="14" height="12" rx="3" fill="#2F2F2F"/>
+  <!-- 背带 ×2：微外弓绕开脸颊，下端没入身体/履带后 -->
+  <path d="M 59 84 Q 61 150 84 188" fill="none" stroke="#2F2F2F" stroke-width="7.5" stroke-linecap="round"/>
+  <path d="M 181 84 Q 179 150 156 188" fill="none" stroke="#2F2F2F" stroke-width="7.5" stroke-linecap="round"/>
+  <!-- 身体 + 颈线 + 胸前面板 -->
+  <rect x="75" y="146" width="90" height="70" rx="16" fill="#F6BD4A" stroke="#2F2F2F" stroke-width="5"/>
+  <path d="M 96 161 Q 120 167 144 161" fill="none" stroke="#2F2F2F" stroke-width="4" stroke-linecap="round"/>
+  <rect x="91" y="168" width="58" height="38" rx="10" fill="none" stroke="#2F2F2F" stroke-width="4"/>
+  <!-- 履带 ×2：竖长圆角块 + 三道横向履带纹 + 轮子带轮毂 -->
+  <rect x="50" y="176" width="46" height="72" rx="15" fill="#C9CDD3" stroke="#2F2F2F" stroke-width="4"/>
+  <line x1="58" y1="190" x2="88" y2="190" stroke="#8F959D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="58" y1="203" x2="88" y2="203" stroke="#8F959D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="58" y1="216" x2="88" y2="216" stroke="#8F959D" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="73" cy="230" r="11" fill="#8F959D" stroke="#2F2F2F" stroke-width="3.5"/>
+  <circle cx="73" cy="230" r="4.5" fill="#C9CDD3"/>
+  <rect x="144" y="176" width="46" height="72" rx="15" fill="#C9CDD3" stroke="#2F2F2F" stroke-width="4"/>
+  <line x1="152" y1="190" x2="182" y2="190" stroke="#8F959D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="152" y1="203" x2="182" y2="203" stroke="#8F959D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="152" y1="216" x2="182" y2="216" stroke="#8F959D" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="167" cy="230" r="11" fill="#8F959D" stroke="#2F2F2F" stroke-width="3.5"/>
+  <circle cx="167" cy="230" r="4.5" fill="#C9CDD3"/>
+  <!-- 背带铰链点（落在履带顶部） -->
+  <circle cx="84" cy="191" r="5.5" fill="#2F2F2F"/>
+  <circle cx="156" cy="191" r="5.5" fill="#2F2F2F"/>
+  <!-- 天线：线 + 顶端小圆 + 头顶黑色圆顶底座 -->
+  <line x1="120" y1="20" x2="120" y2="50" stroke="#2F2F2F" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="120" cy="13" r="7" fill="#2F2F2F"/>
+  <ellipse cx="120" cy="45" rx="11" ry="6" fill="#2F2F2F"/>
+  <!-- 脑袋：大圆（占全身近半） -->
+  <circle cx="120" cy="100" r="56" fill="#F6BD4A" stroke="#2F2F2F" stroke-width="5"/>
+  <!-- 眉毛 ×2 -->
+  <path d="M 84 72 Q 96 64 108 68" fill="none" stroke="#2F2F2F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 132 68 Q 144 64 156 72" fill="none" stroke="#2F2F2F" stroke-width="5" stroke-linecap="round"/>
+  <!-- 眼睛 ×2：大薄白圈 + 大黑瞳 + 白高光 -->
+  <circle cx="95" cy="93" r="17.5" fill="#FFFFFF" stroke="#2F2F2F" stroke-width="4"/>
+  <circle cx="97" cy="95" r="11.5" fill="#2F2F2F"/>
+  <circle cx="102" cy="90" r="4.5" fill="#FFFFFF"/>
+  <circle cx="145" cy="93" r="17.5" fill="#FFFFFF" stroke="#2F2F2F" stroke-width="4"/>
+  <circle cx="143" cy="95" r="11.5" fill="#2F2F2F"/>
+  <circle cx="148" cy="90" r="4.5" fill="#FFFFFF"/>
+  <!-- 嘴：短低位直线（贴近下巴） -->
+  <line x1="113" y1="142" x2="127" y2="142" stroke="#2F2F2F" stroke-width="4.5" stroke-linecap="round"/>
 </svg>
