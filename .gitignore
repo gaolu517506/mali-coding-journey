@@ -9,3 +9,7 @@ venv/
 
 # Scratch 备份与临时文件（注意：.sb3 是交付物，需要提交）
 *.tmp
+
+# IDE
+.idea/
+.vscode/
