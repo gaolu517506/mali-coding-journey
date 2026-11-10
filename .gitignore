@@ -10,6 +10,9 @@ venv/
 # Scratch 备份与临时文件（注意：.sb3 是交付物，需要提交）
 *.tmp
 
+# 原始录屏素材（GIF 成品在 assets/preview.gif）
+*.mov
+
 # IDE
 .idea/
 .vscode/

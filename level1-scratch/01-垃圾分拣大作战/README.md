@@ -4,7 +4,7 @@
 
 **🎮 游戏下载**：[垃圾分拣大作战-展示版.sb3](./垃圾分拣大作战-展示版.sb3)——用 Scratch 离线版或 [TurboWarp](https://turbowarp.org) 打开即玩。
 
-<!-- TODO D4：此处放 ≤10 秒预览 GIF（录屏转 GIF 后放 ./assets/preview.gif） -->
+![垃圾分拣大作战实机预览：接住掉落的垃圾，按 1蓝 2绿 3红 4黄 投桶得分](./assets/preview.gif)
 
 ## 故事
 
